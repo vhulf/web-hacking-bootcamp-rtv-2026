@@ -1,0 +1,11 @@
+<html>
+    <head><title>BOOTCAMP WOOOOOOO!</title></head>
+    <body style="background-color: pink;">
+        <h1>Bootcamp woo!</h1>
+        <form onsubmit="event.preventDefault(); document.getElementById('name').innerText = document.getElementById('name-in').value">
+            <label for="name-in">Name: </label><input type="text" id="name-in">
+            <button type="submit">Submit</button>
+        </form>
+        <p>Hello, <span id="name"></span> !</p>
+    </body>
+</html>
